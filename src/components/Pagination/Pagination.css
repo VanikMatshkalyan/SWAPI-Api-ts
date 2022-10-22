@@ -1,0 +1,28 @@
+.pagination {
+  background: #494747;
+}
+
+.pag-area {
+  display: grid;
+  justify-content: start;
+
+  list-style-type: none;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 3px;
+}
+
+.pag-item {
+  padding: 8px;
+
+  cursor: pointer;
+
+  background: gray;
+}
+
+.pag-item:hover {
+  background: rgb(21 119 151);
+}
+
+.active {
+  background: #494747;
+}
